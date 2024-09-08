@@ -107,3 +107,37 @@ $$ a = \sqrt{(4 - (-1))^2 + (2 - (-2))^2} = \sqrt{41} $$
 $$ b = \sqrt{(-3 - 4)^2 + (5 - 2)^2} = \sqrt{58} $$
 $$ c = \sqrt{(-1 - (-3))^2 + (-2 - 5)^2} = \sqrt{53} $$
 $$ p = a + b + c = \sqrt{41} + \sqrt{58} + \sqrt{53} \approx 21.30 $$
+
+6. Demostrar que los triángulos dados por las coordenadas de sus vértices son isósceles:
+
+a. $(2, -2)$, $(-3, -1)$, $(1, 6)$
+
+$$ a = \sqrt{(-3 - 2)^2 + (-1 - (-2))^2} = \sqrt{26} $$
+$$ b = \sqrt{(1 - (-3))^2 + (6 - (-1))^2} = \sqrt{65} $$
+$$ c = \sqrt{(2 - 1)^2 + (-2 - 6)^2} = \sqrt{65} $$
+
+Como $b = c$, entonces el triángulo es isósceles.
+
+b. $(-2, 2)$, $(6, 6)$, $(2, -2)$
+
+$$ a = \sqrt{(6 - (-2))^2 + (6 - 2)^2} = 4\sqrt{5} $$
+$$ b = \sqrt{(2 - 6)^2 + (-2 - 6)^2} = 4\sqrt{5} $$
+$$ c = \sqrt{(2 - (-2))^2 + (-2 - 2)^2} = 4\sqrt{2} $$
+
+Como $a = b$, entonces el triángulo es isósceles.
+
+c. $(2, 4)$, $(5, 1)$, $(6, 5)$
+
+$$ a = \sqrt{(5 - 2)^2 + (1 - 4)^2} = 3\sqrt{2} $$
+$$ b = \sqrt{(6 - 5)^2 + (5 - 1)^2} = \sqrt{17} $$
+$$ c = \sqrt{(2 - 6)^2 + (4 - 5)^2} = \sqrt{17} $$
+
+Como $b = c$, entonces el triángulo es isósceles.
+
+d. $(6, 7)$, $(-8, -1)$, $(-2, -7)$
+
+$$ a = \sqrt{(-8 - 6)^2 + (-1 - 7)^2} = 2\sqrt{65} $$
+$$ b = \sqrt{(-2 - (-8))^2 + (-7 - (-1))^2} = 6\sqrt{2} $$
+$$ c = \sqrt{(6 - (-2))^2 + (7 - (-7))^2} = 2\sqrt{65} $$
+
+Como $a = c$, entonces el triángulo es isósceles.
