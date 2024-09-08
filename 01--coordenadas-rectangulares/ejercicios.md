@@ -141,3 +141,45 @@ $$ b = \sqrt{(-2 - (-8))^2 + (-7 - (-1))^2} = 6\sqrt{2} $$
 $$ c = \sqrt{(6 - (-2))^2 + (7 - (-7))^2} = 2\sqrt{65} $$
 
 Como $a = c$, entonces el triángulo es isósceles.
+
+7. Demostrar que los triángulos dados por las coordenadas de sus vértices son rectángulos. Hallar sus áreas.
+
+a. $(0, 9)$, $(-4, -1)$, $(3, 2)$
+
+$$ a^2 = (-4 - 0)^2 + (-1 - 9)^2 = 116 $$
+$$ b^2 = (3 - (-4))^2 + (2 - (-1))^2 = 58 $$
+$$ c^2 = (0 - 3)^2 + (9 - 2)^2 = 58 $$
+
+Como $a^2 = b^2 + c^2$, entonces el triángulo es isósceles.
+
+$$ A = \frac{b \times c}{2} = \frac{\sqrt{58} \times \sqrt{58}}{2} = 29 $$
+
+b. $(10, 5)$, $(3, 2)$, $(6, -5)$
+
+$$ a^2 = (3 - 10)^2 + (2 - 5)^2 = 58 $$
+$$ b^2 = (6 - 3)^2 + (-5 - 2)^2 = 58 $$
+$$ c^2 = (10 - 6)^2 + (5 - (-5))^2 = 116 $$
+
+Como $c^2 = a^2 + b^2$, entonces el triángulo es isósceles.
+
+$$ A = \frac{a \times b}{2} = \frac{\sqrt{58} \times \sqrt{58}}{2} = 29 $$
+
+c. $(3, -2)$, $(-2, 3)$, $(0, 4)$
+
+$$ a^2 = (-2 - 3)^2 + (3 - (-2))^2 = 50 $$
+$$ b^2 = (0 - (-2))^2 + (4 - 3)^2 = 5 $$
+$$ c^2 = (3 - 0)^2 + (-2 - 4)^2 = 45 $$
+
+Como $a^2 = b^2 + c^2$, entonces el triángulo es isósceles.
+
+$$ A = \frac{b \times c}{2} = \frac{\sqrt{5} \times \sqrt{45}}{2} = \frac{15}{2} = 7.5 $$
+
+d. $(-2, 8)$, $(-6, 1)$, $(0, 4)$
+
+$$ a^2 = (-6 - (-2))^2 + (1 - 8)^2 = 65 $$
+$$ b^2 = (0 - (-6))^2 + (4 - 1)^2 = 45 $$
+$$ c^2 = (-2 - 0)^2 + (8 - 4)^2 = 20 $$
+
+Como $a^2 = b^2 + c^2$, entonces el triángulo es isósceles.
+
+$$ A = \frac{b \times c}{2} = \frac{\sqrt{45} \times \sqrt{20}}{2} = 15 $$
