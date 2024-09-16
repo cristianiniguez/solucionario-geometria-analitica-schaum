@@ -183,3 +183,32 @@ $$ c^2 = (-2 - 0)^2 + (8 - 4)^2 = 20 $$
 Como $a^2 = b^2 + c^2$, entonces el triángulo es isósceles.
 
 $$ A = \frac{b \times c}{2} = \frac{\sqrt{45} \times \sqrt{20}}{2} = 15 $$
+
+8. Demostrar que los puntos siguientes son los vértices de un paralelogramo:
+
+a. $(-1, -2)$, $(0, 1)$, $(-3, 2)$, $(-4, -1)$
+
+$$ d_{12} = \sqrt{(0 - (-1))^2 + (1 - (-2))^2} = \sqrt{10} $$
+$$ d_{23} = \sqrt{(-3 - 0)^2 + (2 - 1)^2} = \sqrt{10} $$
+$$ d_{34} = \sqrt{(-4 - (-3))^2 + (-1 - 2)^2} = \sqrt{10} $$
+$$ d_{41} = \sqrt{(-1 - (-4))^2 + (-2 - (-1))^2} = \sqrt{10} $$
+
+Como $d_{12} = d_{23} = d_{34} = d_{41}$, entonces los puntos son los vértices de un paralelogramo.
+
+b. $(-1, -5)$, $(2, 1)$, $(1, 5)$, $(-2, -1)$
+
+$$ d_{12} = \sqrt{(2 - (-1))^2 + (1 - (-5))^2} = 3\sqrt{5} $$
+$$ d_{23} = \sqrt{(1 - 2)^2 + (5 - 1)^2} = \sqrt{17} $$
+$$ d_{34} = \sqrt{(-2 - 1)^2 + (-1 - 5)^2} = 3\sqrt{5} $$
+$$ d_{41} = \sqrt{(-2 - (-1))^2 + (-1 - (-5))^2} = \sqrt{17} $$
+
+Como $d_{12} = d_{34}$ y $d_{23} = d_{41}$, entonces los puntos son los vértices de un paralelogramo.
+
+c. $(2, 4)$, $(6, 2)$, $(8, 6)$, $(4, 8)$
+
+$$ d_{12} = \sqrt{(6 - 2)^2 + (2 - 4)^2} = 2\sqrt{5} $$
+$$ d_{23} = \sqrt{(8 - 6)^2 + (6 - 2)^2} = 2\sqrt{5} $$
+$$ d_{34} = \sqrt{(4 - 8)^2 + (8 - 6)^2} = 2\sqrt{5} $$
+$$ d_{41} = \sqrt{(2 - 4)^2 + (4 - 8)^2} = 2\sqrt{5} $$
+
+Como $d_{12} = d_{23} = d_{34} = d_{41}$, entonces los puntos son los vértices de un paralelogramo.
