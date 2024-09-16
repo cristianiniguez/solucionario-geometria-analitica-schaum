@@ -212,3 +212,135 @@ $$ d_{34} = \sqrt{(4 - 8)^2 + (8 - 6)^2} = 2\sqrt{5} $$
 $$ d_{41} = \sqrt{(2 - 4)^2 + (4 - 8)^2} = 2\sqrt{5} $$
 
 Como $d_{12} = d_{23} = d_{34} = d_{41}$, entonces los puntos son los vértices de un paralelogramo.
+
+9. Hallar las coordenadas del punto que equidista de los puntos fijos:
+
+$$P = (x, y)$$
+
+a. $(3, 3)$, $(6, 2)$, $(8, -2)$
+
+$$
+\begin{align*}
+(AP)^2 &= (BP)^2 \\
+(x - 3)^2 + (y - 3)^2 &= (x - 6)^2 + (y - 2)^2 \\
+x^2-6x+9 + y^2-6y+9 &= x^2-12x+36 + y^2-4y+4\\
+6x - 2y &= 22 \\
+3x - y &= 11 \space\cdots\space (1) \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+(AP)^2 &= (CP)^2 \\
+(x - 3)^2 + (y - 3)^2 &= (x - 8)^2 + (y - (-2))^2 \\
+x^2-6x+9 + y^2-6y+9 &= x^2-16x+64 + y^2+4y+4\\
+10x - 10y &= 50 \\
+x - y &= 5 \space\cdots\space (2) \\
+\end{align*}
+$$
+
+Restando $(1) - (2)$:
+
+$$
+\begin{align*}
+2x &= 6 \\
+x &= 3
+\end{align*}
+$$
+
+Reemplazando en $(1)$:
+
+$$
+\begin{align*}
+3(3) - y &= 11 \\
+-y &= 2 \\
+y &= -2 \\
+\end{align*}
+$$
+
+$$P = (3, -2)$$
+
+b. $(4, 3)$, $(2, 7)$, $(-3, -8)$
+
+$$
+\begin{align*}
+(AP)^2 &= (BP)^2 \\
+(x - 4)^2 + (y - 3)^2 &= (x - 2)^2 + (y - 7)^2 \\
+x^2-8x+16 + y^2-6y+9 &= x^2-4x+4 + y^2-14y+49 \\
+-4x + 8y &= 28 \\
+x - 2y &= -7 \space\cdots\space (1) \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+(AP)^2 &= (CP)^2 \\
+(x - 4)^2 + (y - 3)^2 &= (x - (-3))^2 + (y - (-8))^2 \\
+x^2-8x+16 + y^2-6y+9 &= x^2+6x+9 + y^2+16y+64 \\
+-14x - 22y &= 48 \\
+7x + 11y &= -24 \space\cdots\space (2) \\
+\end{align*}
+$$
+
+Restando $(2) - 7 \times (1)$:
+
+$$
+\begin{align*}
+25y &= 25 \\
+y &= 1
+\end{align*}
+$$
+
+Reemplazando en $(1)$:
+
+$$
+\begin{align*}
+x - 2(1) &= -7 \\
+x &= -5 \\
+\end{align*}
+$$
+
+$$P = (-5, 1)$$
+
+c. $(2, 3)$, $(4, -1)$, $(5, 2)$
+
+$$
+\begin{align*}
+(AP)^2 &= (BP)^2 \\
+(x - 2)^2 + (y - 3)^2 &= (x - 4)^2 + (y - (-1))^2 \\
+x^2-4x+4 + y^2-6y+9 &= x^2-8x+16 + y^2+2y+1 \\
+4x - 8y &= 4 \\
+x - 2y &= 1 \space\cdots\space (1) \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+(AP)^2 &= (CP)^2 \\
+(x - 2)^2 + (y - 3)^2 &= (x - 5)^2 + (y - 2)^2 \\
+x^2-4x+4 + y^2-6y+9 &= x^2-10x+25 + y^2-4y+4 \\
+6x - 2y &= 16 \\
+3x - y &= 8 \space\cdots\space (2) \\
+\end{align*}
+$$
+
+Restando $(1) - 2 \times (2)$:
+
+$$
+\begin{align*}
+-5x &= -15 \\
+x &= 3
+\end{align*}
+$$
+
+Reemplazando en $(1)$:
+
+$$
+\begin{align*}
+3 - 2y &= 1 \\
+-2y &= -2 \\
+y &= 1 \\
+\end{align*}
+$$
+
+$$P = (3, 1)$$
