@@ -373,3 +373,37 @@ y &= 1 \\
 $$
 
 $$P = (3, 1)$$
+
+10. Demostrar, mediante la fórmula de la distancia, que los puntos siguientes son colineales:
+
+a. $(0, 4)$, $(3, -2)$, $(-2, 8)$
+
+$$ d_{AB} = \sqrt{(3 - 0)^2 + (-2 - 4)^2} = 3\sqrt{5} $$
+$$ d_{BC} = \sqrt{(-2 - 3)^2 + (8 - (-2))^2} = 5\sqrt{5} $$
+$$ d_{CA} = \sqrt{(0 - (-2))^2 + (4 - 8)^2} = 2\sqrt{5} $$
+
+Como $d_{BC} = d_{AB} + d_{CA}$, entonces los puntos son colineales.
+
+b. $(-2, 3)$, $(-6, 1)$, $(-10, -1)$
+
+$$ d_{AB} = \sqrt{(-6 - (-2))^2 + (1 - 3)^2} = 2\sqrt{5} $$
+$$ d_{BC} = \sqrt{(-10 - (-6))^2 + (-1 - 1)^2} = 2\sqrt{5} $$
+$$ d_{CA} = \sqrt{(-2 - (-10))^2 + (3 - (-1))^2} = 4\sqrt{5} $$
+
+Como $d_{CA} = d_{AB} + d_{BC}$, entonces los puntos son colineales.
+
+c. $(1, 2)$, $(-3, 10)$, $(4, -4)$
+
+$$ d_{AB} = \sqrt{(-3 - 1)^2 + (10 - 2)^2} = 4\sqrt{5} $$
+$$ d_{BC} = \sqrt{(4 - (-3))^2 + (-4 - 10)^2} = 7\sqrt{5} $$
+$$ d_{CA} = \sqrt{(1 - 4)^2 + (2 - (-4))^2} = 3\sqrt{5} $$
+
+Como $d_{BC} = d_{AB} + d_{CA}$, entonces los puntos son colineales.
+
+d. $(1, 3)$, $(-2, -3)$, $(3, 7)$
+
+$$ d_{AB} = \sqrt{(-2 - 1)^2 + (-3 - 3)^2} = 3\sqrt{5} $$
+$$ d_{BC} = \sqrt{(3 - (-2))^2 + (7 - (-3))^2} = 5\sqrt{5} $$
+$$ d_{CA} = \sqrt{(1 - 3)^2 + (3 - 7)^2} = 2\sqrt{5} $$
+
+Como $d_{BC} = d_{AB} + d_{CA}$, entonces los puntos son colineales.
